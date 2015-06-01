@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABB1A4DC-2201-472C-A68E-D63627ADFA41}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Visioon</RootNamespace>
+    <AssemblyName>Visioon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="components\bootstrap2\css\bootstrap-responsive.css" />
+    <Content Include="components\bootstrap2\css\bootstrap.css" />
+    <Content Include="components\bootstrap2\img\glyphicons-halflings-white.png" />
+    <Content Include="components\bootstrap2\img\glyphicons-halflings.png" />
+    <Content Include="components\bootstrap2\js\bootstrap.min.js" />
+    <Content Include="components\bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="components\bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="components\bootstrap3\css\bootstrap.css" />
+    <Content Include="components\bootstrap3\css\bootstrap.min.css" />
+    <Content Include="components\bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="components\bootstrap3\js\bootstrap.js" />
+    <Content Include="components\bootstrap3\js\bootstrap.min.js" />
+    <Content Include="components\jquery\jquery.min.js" />
+    <Content Include="components\jstimezonedetect\jstz.js" />
+    <Content Include="components\jstimezonedetect\jstz.min.js" />
+    <Content Include="components\jstimezonedetect\LICENCE.txt" />
+    <Content Include="components\underscore\underscore-min.js" />
+    <Content Include="css\calendar.css" />
+    <Content Include="css\calendar.min.css" />
+    <Content Include="css\estilo.css" />
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="css\fullcalendar.print.css" />
+    <Content Include="css\vendor\jquery.minical.css" />
+    <Content Include="css\vendor\jquery.toastmessage.css" />
+    <Content Include="js\app.js" />
+    <Content Include="js\calendar.js" />
+    <Content Include="js\calendar.min.js" />
+    <Content Include="js\funcionesMisreservas.js" />
+    <Content Include="js\funcionesRegistro.js" />
+    <Content Include="js\language\ar-SA.js" />
+    <Content Include="js\language\bs-BA.js" />
+    <Content Include="js\language\cs-CZ.js" />
+    <Content Include="js\language\da-DK.js" />
+    <Content Include="js\language\de-AT.js" />
+    <Content Include="js\language\de-DE.js" />
+    <Content Include="js\language\el-GR.js" />
+    <Content Include="js\language\es-CO.js" />
+    <Content Include="js\language\es-ES.js" />
+    <Content Include="js\language\es-MX.js" />
+    <Content Include="js\language\fi-FI.js" />
+    <Content Include="js\language\fr-FR.js" />
+    <Content Include="js\language\hr-HR.js" />
+    <Content Include="js\language\hu-HU.js" />
+    <Content Include="js\language\it-IT.js" />
+    <Content Include="js\language\ja-JP.js" />
+    <Content Include="js\language\ko-KR.js" />
+    <Content Include="js\language\nl-NL.js" />
+    <Content Include="js\language\no-NO.js" />
+    <Content Include="js\language\pl-PL.js" />
+    <Content Include="js\language\pt-BR.js" />
+    <Content Include="js\language\ro-RO.js" />
+    <Content Include="js\language\ru-RU.js" />
+    <Content Include="js\language\sl-SL.js" />
+    <Content Include="js\language\sv-SE.js" />
+    <Content Include="js\language\template.js" />
+    <Content Include="js\language\tr-TR.js" />
+    <Content Include="js\language\zh-CN.js" />
+    <Content Include="js\language\zh-TW.js" />
+    <Content Include="js\vendor\fullcalendar.min.js" />
+    <Content Include="js\vendor\jquery.minical.js" />
+    <Content Include="img\avatar.png" />
+    <Content Include="img\bg.jpg" />
+    <Content Include="img\close.gif" />
+    <Content Include="img\error.png" />
+    <Content Include="img\icono.png" />
+    <Content Include="img\icon_input.png" />
+    <Content Include="img\icon_input_focus.png" />
+    <Content Include="img\ic_dispo.png" />
+    <Content Include="img\ic_ndispo.png" />
+    <Content Include="img\logotipo.png" />
+    <Content Include="img\notice.png" />
+    <Content Include="img\success.png" />
+    <Content Include="img\warning.png" />
+    <Content Include="img\web Pages%28Mis Reservas%29.png" />
+    <Content Include="img\web Pages%28Reservar%29.png" />
+    <Content Include="js\funcionesInicio.js" />
+    <Content Include="js\funcionesSesion.js" />
+    <Content Include="js\vendor\jquery.js" />
+    <Content Include="js\vendor\jquery.toastmessage.js" />
+    <Content Include="js\vendor\lang-all.js" />
+    <Content Include="js\vendor\moment.min.js" />
+    <Content Include="tmpls\day.html" />
+    <Content Include="tmpls\events-list.html" />
+    <Content Include="tmpls\modal.html" />
+    <Content Include="tmpls\month-day.html" />
+    <Content Include="tmpls\month.html" />
+    <Content Include="tmpls\week-days.html" />
+    <Content Include="tmpls\week.html" />
+    <Content Include="tmpls\year-month.html" />
+    <Content Include="tmpls\year.html" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="web\Administracion.aspx" />
+    <Content Include="web\estadisticas.aspx" />
+    <Content Include="web\historial.aspx" />
+    <Content Include="web\principal.aspx" />
+    <Content Include="web\sesionadmin.aspx" />
+    <Content Include="web\inicio.aspx" />
+    <Content Include="web\Myreservas.aspx" />
+    <Content Include="web\registro.aspx" />
+    <Content Include="web\reservasSi.aspx" />
+    <Content Include="web\sesion.aspx" />
+    <Content Include="web\misreservas.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="modelo\Admin.cs" />
+    <Compile Include="modelo\Disponibilidad.cs" />
+    <Compile Include="modelo\DReservas.cs" />
+    <Compile Include="modelo\MisReservas.cs" />
+    <Compile Include="modelo\MyReserva.cs" />
+    <Compile Include="modelo\Reserva.cs" />
+    <Compile Include="web\Administracion.aspx.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Administracion.aspx.designer.cs">
+      <DependentUpon>Administracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\Administracion.Master.cs">
+      <DependentUpon>Administracion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Administracion.Master.designer.cs">
+      <DependentUpon>Administracion.Master</DependentUpon>
+    </Compile>
+    <Compile Include="web\estadisticas.aspx.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\estadisticas.aspx.designer.cs">
+      <DependentUpon>estadisticas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\historial.aspx.cs">
+      <DependentUpon>historial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\historial.aspx.designer.cs">
+      <DependentUpon>historial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\principal.aspx.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\principal.aspx.designer.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\sesionadmin.aspx.cs">
+      <DependentUpon>sesionadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\sesionadmin.aspx.designer.cs">
+      <DependentUpon>sesionadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\inicio.aspx.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\inicio.aspx.designer.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\Administrador.cs" />
+    <Compile Include="modelo\Conexion.cs" />
+    <Compile Include="modelo\Usuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="web\Myreservas.aspx.cs">
+      <DependentUpon>Myreservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Myreservas.aspx.designer.cs">
+      <DependentUpon>Myreservas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\registro.aspx.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\registro.aspx.designer.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\reservasSi.aspx.cs">
+      <DependentUpon>reservasSi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\reservasSi.aspx.designer.cs">
+      <DependentUpon>reservasSi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\sesion.aspx.cs">
+      <DependentUpon>sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\sesion.aspx.designer.cs">
+      <DependentUpon>sesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\misreservas.aspx.cs">
+      <DependentUpon>misreservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\misreservas.aspx.designer.cs">
+      <DependentUpon>misreservas.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="components\bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="components\bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="components\bootstrap3\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="img\icono.psd" />
+    <None Include="img\logotipo.psd" />
+    <None Include="img\web Pages%28Reservar%29.psd" />
+    <None Include="img\web Pages.psd" />
+    <Content Include="web\MasterPage.Master" />
+    <Content Include="web\Administracion.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6366</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

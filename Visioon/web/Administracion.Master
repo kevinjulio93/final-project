@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administracion.master.cs" Inherits="Visioon.web.Administracion" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="../img/icono.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="../css/vendor/jquery.toastmessage.css" />
+    <link rel="stylesheet" type="text/css" href="../css/vendor/jquery.minical.css" />
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+    
+    <script type="text/javascript" src="../js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="../js/vendor/jquery.toastmessage.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="cuerpo">
+        <header id="header">
+			<div class="marge-header">
+				<a href="#"><img src="../img/logotipo.png" class="logo" /></a>
+				<div class="cont-perfil">
+					
+                    <asp:Label ID="nombreUsuario" class="nombre-user" runat="server" Text=""></asp:Label>
+					<asp:LinkButton ID="btnCerrarSesion" runat="server" 
+                        onclick="btnCerrarSesion_Click"><img src="../img/avatar.png" class="avatar" /></asp:LinkButton>
+					<div class="limp"></div>
+				</div>
+				<div class="limp"></div>
+			</div>
+		</header>
+        <nav id="menu">
+			<ul>
+				<li><asp:LinkButton ID="linkMisreservas" runat="server" 
+                        onclick="linkHistorial_Click">Historial</asp:LinkButton></li>
+				<li><asp:LinkButton ID="linkReservas" runat="server"
+                        onclick="linkReservas_Click">Reservar</asp:LinkButton></li>
+				<div class="limp"></div>
+			</ul>
+		</nav>
+        <asp:ContentPlaceHolder ID="ID" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer id="pie">
+			<p class="">&copy; KEVIN JULIO, JAVIER GALINDO</p>
+		</footer>
+    </div>
+    </form>
+</body>
+</html>

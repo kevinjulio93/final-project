@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"
+    Inherits="Vision.MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Vision-Reservas</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div id="page">
+        <header id="cabecera">
+            <div id="marco-cabecera">
+                <div id="titulo">
+                    <h2>:)</h2>
+                </div>
+
+                <div id="opciones-user">
+                    <span>
+                        <p>Bienvenid@, <%if (Session["usuario"] != null) { Session["usuario"].ToString(); }%></p>
+                    </span>
+                    <span class="divisorbar"></span>
+                    <span><a href="#" class="a-white">Perfil</a></span>
+                    <span class="divisorbar"></span>
+                    <span><a href="#" class="a-white">Cerrar Session</a></span>
+                </div>
+                <div class="limp"></div>
+            </div>
+
+            <nav id="menu">
+                <div id="content">
+                    <ul>
+                        <li class="active"><a href="#">Reservas</a></li>
+                        <li><a href="#">Demo</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">New</a></li>
+                    </ul>
+                </div>
+                <div class="limp"></div>
+            </nav>
+        </header>
+        <div class="limp">
+        </div>
+        <div id="cuerpo">
+            <section id="contenedor">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+        <div class="limp">
+        </div>
+        <footer id="pie">
+            <aside id="submenu">
+                <p style="text-align: center;">Estes es el pie de pagina</p>
+            </aside>
+            <section id="copy">
+                <center>
+                     <p> © 2014 - All Right Reserved</p>
+                 </center>
+            </section>
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

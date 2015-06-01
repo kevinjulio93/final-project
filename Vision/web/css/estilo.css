@@ -1,0 +1,640 @@
+﻿/* 
+Document   : estilo
+Created on : 12-Junio-2014, 12:31:21
+Author     : HERNANDO ARIZA PEREZ
+Description: Purpose of the stylesheet follows.
+*/
+
+
+/*GENERAL **/
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 100%;
+    line-height: 1.7;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #1faeff;
+}
+/*img{
+max-width: 100%;
+border: 0;
+width: 100%;
+display: block;
+max-width: 100%; 
+}*/
+.limp {
+    clear: both;
+    line-height: 1.7;
+}
+
+.divisorbar {
+    border-left: 1px solid #010069;
+    border-right: 1px solid #313091;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.divisorbarH {
+    border-bottom: 1px inset darkgray;
+}
+
+/*contenedores de la pagina
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+*/
+
+
+#page {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+/*-----------------------------------------*/
+#cabecera {
+    background-color: #133d80;
+    display: block;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+
+#marco-cabecera {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#titulo {
+    float: left;
+}
+
+#opciones-user {
+    float: right;
+    margin: 0.732064%;
+    width: 498px;
+}
+
+    #opciones-user span {
+        float: left;
+        margin-left: 03.660322%;
+    }
+
+/*-----------------------------------------*/
+#cuerpo {
+    display: block;
+    position: relative;
+    top: 100px;
+    z-index: 0;
+}
+
+#menu {
+    background-color: #1faeff;
+    border-bottom: 1px solid #0187cf;
+    display: block;
+}
+
+#content {
+    margin-left: 6.90922%;
+    width: 86.0351%;
+}
+
+    #content ul li {
+        float: left;
+        list-style: none;
+        padding: 0.99%;
+    }
+
+    #content ul .active {
+        background: #0CA1F1;
+    }
+
+    #content ul li a {
+        color: #fff;
+    }
+
+    #content ul li:hover {
+        background-color: #0CA1F1;
+    }
+
+#contenedor {
+    color: darkgray;
+    margin: 0 auto;
+    width: 86%;
+}
+
+#historia {
+    padding: 00.2%;
+    margin-top: 2%;
+    background-color: #f6f6f6;
+}
+
+#main {
+    background-color: #F8F8F9;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+
+#info-bar {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-radius: 3px;
+    display: block;
+    padding: 6px 10px;
+}
+
+    #info-bar p {
+    }
+
+.a-white {
+    color: #fff;
+}
+
+
+#cont-reservas-info {
+    margin-top: 30px;
+}
+
+#cont-busq {
+    background: none repeat scroll 0 0 #DCE7E1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    padding: 6px 20px;
+}
+
+#cont-tabla-re {
+    overflow-y: scroll;
+    width: 40%;
+}
+
+.cont-tabla {
+    height: 365px;
+}
+
+#control-reserva {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-bottom-right-radius: 4px;
+    height: 365px;
+    width: 60%;
+}
+
+
+.cont-control-re {
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.txt-icon-hora {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #6D6C6C;
+    height: 17px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 9px 8px;
+    width: 81px;
+}
+
+.center-position {
+    margin-top: 20px;
+}
+
+.txt-area {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 4px;
+    color: #7E7E7E;
+    display: block;
+    font-family: roboto;
+    font-size: 13px;
+    height: 116px;
+    max-height: 90px;
+    max-width: 100%;
+    min-height: 90px;
+    text-transform: capitalize;
+    width: 544px;
+}
+
+    .txt-area:focus {
+        border-bottom: 2px solid #1faeff;
+    }
+
+
+#contenedor-form-reserva {
+    background: #F6F6F6;
+    padding-bottom: 50px;
+}
+
+.txt-icon-normal {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #6D6C6C;
+    height: 21px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 7px;
+    width: 220px;
+}
+
+.btn-normal {
+    background: none repeat scroll 0 0 #1faeff;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 8px 44px;
+}
+
+    .btn-normal:hover {
+        background: #12a0f1;
+    }
+
+    .btn-normal:focus {
+        background: #12a0f1;
+    }
+
+
+
+.icon-input {
+    background: none repeat scroll 0 0 #1faeff;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    float: right;
+    height: 21px;
+    margin: 0;
+    padding: 7px 8px;
+    width: 20px;
+}
+
+.icon-input-red {
+    background: none repeat scroll 0 0 #ff7171;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    float: right;
+    height: 21px;
+    margin: 0;
+    padding: 7px 8px;
+    width: 20px;
+}
+
+.span-subtitulo {
+    color: #818181;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*___________________TABLA_______________*/
+
+.icon-tabla-h {
+    float: left;
+    margin-right: 20px;
+}
+
+.icon-tabla-b {
+    float: right;
+    margin-left: 20px;
+}
+
+.table {
+    clear: both;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 365px;
+    width: 100%;
+}
+
+    .table thead {
+    }
+
+        .table thead th {
+            background: none repeat scroll 0 0 #F1F1F1;
+            border-right: 1px solid #FFFFFF;
+            border-bottom: 1px solid #FFFFFF;
+            color: #828080;
+            font-weight: lighter;
+            padding: 3px 36px;
+            text-align: center;
+        }
+
+
+    .table tbody tr {
+        background: none repeat scroll 0 0 #F8F8F8;
+    }
+
+    .table tbody tr {
+    }
+
+        .table tbody tr:hover {
+            background: #fdfcfc;
+        }
+
+
+        .table tbody tr td {
+            border-right: 1px solid #FFFFFF;
+            border-bottom: 1px solid #FFFFFF;
+            color: #828080;
+            cursor: pointer;
+            font-weight: lighter;
+            padding: 3px 36px;
+            text-align: left;
+        }
+
+/**___________________FIN TABLA____________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buton1 {
+    padding: 7px 15px;
+    background-color: #90D000;
+}
+
+.lis-proyects li {
+    margin: 20px;
+    float: left;
+    padding: 10px 25px;
+    margin-right: 01.464129%;
+    background-color: #1FAEFF;
+    width: 6%;
+}
+
+#pie {
+    background-color: #f8f8f9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    color: #133d80;
+    margin-top: 12%;
+    padding: 2% 0 0;
+    width: 100%;
+}
+
+#submenu {
+    margin-left: 6.90922%;
+    width: 86.0351%;
+}
+
+#copy {
+    background-color: #010069;
+    color: white;
+}
+
+
+.label {
+}
+
+.txtcaja {
+    border: 1px solid #E8E8E8;
+    color: #010069;
+    font-family: 'Segoe UI Light',serif,'Minion Web';
+    font-size: x-large;
+    margin-bottom: 20px;
+    padding: 6px;
+    width: 100%;
+}
+
+.txtarea {
+    border: 1px solid #E8E8E8;
+    color: #010069;
+    font-family: 'Segoe UI Light',serif,'Minion Web';
+    font-size: x-large;
+    margin-bottom: 20px;
+    padding: 6px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.btguardar {
+    font-family: 'Segoe UI Light',serif,'Minion Web';
+    background: #90D000;
+    border: 0 none;
+    color: #F8F8F9;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.labelimg {
+    font-family: 'Segoe UI Light',serif,'Minion Web';
+    border: 0 none;
+    padding: 7px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.file {
+    cursor: pointer;
+    font-size: 38px;
+    margin-left: -450px;
+    margin-top: 18px;
+    opacity: 0;
+    position: absolute;
+}
+
+.btupdate {
+    font-family: 'Segoe UI Light',serif,'Minion Web';
+    background: #1FAEFF;
+    border: 0 none;
+    color: #F8F8F9;
+    font-size: x-large;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.mensajeEr {
+    color: #F8F8F9;
+    background: salmon;
+}
+
+.mensajeOk {
+    color: #F8F8F9;
+    background: lightgreen;
+}
+
+.proyetimg {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+.login-page {
+    background: none repeat scroll 0 0 / cover #32323a;
+}
+
+.contenedor-login {
+    border-radius: 4px;
+    display: block;
+    margin: 7% auto 0;
+    width: 27%;
+}
+
+.login-head {
+    background: none repeat scroll 0 0 #133d80;
+    border-bottom: 10px solid #01187b;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+    .login-head h2 {
+        color: #ffffff;
+        font-weight: lighter;
+    }
+
+.login-body {
+    background: none repeat scroll 0 0 #f1f1f1;
+    display: block;
+    padding: 20px 0 26px;
+}
+
+.registro-body h3 {
+    color: #8f8c8c;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 23px;
+    padding-bottom: 11px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.txt-normal {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 0 none;
+    border-radius: 4px;
+    display: block;
+    height: 33px;
+    margin: 10px auto 0;
+    padding-left: 19px;
+    width: 87%;
+}
+
+    .txt-normal:focus {
+        border:1px solid #12a0f1;
+    
+    }
+
+.login-footer {
+    background: none repeat scroll 0 0 #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.btn-blue {
+    background: none repeat scroll 0 0 #12a0f1;
+    border: 0 none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 50px;
+    margin: 0 auto;
+    width: 74%;
+}
+
+.txt-normal-registro {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    display: block;
+    height: 33px;
+    margin: 10px auto 0;
+    padding-left: 19px;
+    width: 87%;
+}
+
+.txt-normal-registro:focus {
+    border:1px solid #12a0f1;
+}
+
+.registro-body {
+    background: #ffffff;
+}
+
+.btn-blue:hover {
+    background: #1faeff;
+}
+
+.bootstrap-datetimepicker-widget.top:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, 0.2);
+    bottom: -7px;
+    content: "";
+    display: inline-block;
+    left: 6px;
+    position: absolute;
+}
+.bootstrap-datetimepicker-widget.top:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgba(0, 0, 0, 0.2);
+    bottom: -7px;
+    content: "";
+    display: inline-block;
+    left: 6px;
+    position: absolute;
+}

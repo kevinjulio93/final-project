@@ -1,0 +1,483 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url("../img/bg.jpg") repeat scroll 0 0 #fff;
+	font-family: 'roboto';
+}
+
+#cuerpo{
+	 background: none repeat scroll 0 0 #f1f2f7;
+    border-radius: 4px;
+    margin: 40px auto 0;
+    width: 80%;
+}
+
+#header{
+	background: #ffffff;
+	border-radius: 4px;
+	border-bottom: 3px solid #e2e2e2;
+}
+
+.selected-ok
+{
+    background:#b9ffdf !important;
+}
+
+.selected-end
+{
+    background:#ffdfb9 !important;
+}
+
+.marge-header{
+	display: block;
+    margin: 0 40px;
+}
+
+.logo{
+	display: block;
+    float: left;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    width: 146px;
+}
+
+.limp{
+	clear: both;
+	line-height: 17;
+}
+
+.cont-perfil{
+	display: block;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.nombre-user{
+	 color: #777777;
+    float: left;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-transform:capitalize;
+}
+
+.avatar{
+	display: block;
+    float: right;
+}
+
+#menu{
+	background: none repeat scroll 0 0 #ffffff;
+    border-radius: 4px;
+    margin: 24px auto 0;
+    width: 95%;
+}
+
+
+#menu ul{
+	margin-left: 20px;
+}
+
+#menu ul li{
+	 float: left;
+    list-style: none outside none;
+    margin: 10px 10px 10px 32px;
+}
+
+#menu ul li a{
+	 color: #777777;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#menu ul li .active{
+	 color: #00b4ff;
+	font-weight: bold;
+    
+}
+
+#menu ul li a:hover{
+	color: #00b4ff;
+	font-weight: bold;
+}
+
+#cont-principal{
+	background: none repeat scroll 0 0 #ffffff;
+    display: block;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.principal-titulo{
+	 background: none repeat scroll 0 0 #fafafa;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.principal-titulo h1{
+	 color: #00b4ff;
+    display: block;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.principal-cuerpo{
+	background: none repeat scroll 0 0 #ffffff;
+    margin: 0px auto 0;
+    width: 90%;
+}
+
+
+.cont-form-reserva{
+	width: 100%;
+    margin-top: 40px;
+}
+
+
+.label-normal{
+	color: #777777;
+    display: block;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.input-normal{
+	background: url("../img/icon_input.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #868686;
+    border-left-color: inherit;
+    border-right-color: inherit;
+    border-style: none none solid;
+    border-top-color: inherit;
+    border-width: 0 0 1px;
+    color: #777777;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 9px;
+    padding-left: 1px;
+    width: 300px;
+}
+
+.input-normal:focus{
+	background: url("../img/icon_input_focus.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+	border-bottom: 1px solid #00b4ff;
+}
+
+.btn-normal{
+	 background: none repeat scroll 0 0 #00b4ff;
+    border: 0 none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.btn-normal:hover{
+	background: #029bdb;
+}
+.cont-disponibilidad-reserva{
+	float: right;
+	width: 50%;
+}
+
+.text-center{
+	text-align: center !important;
+}
+.lista-disponibilidad{
+	background: none repeat scroll 0 0 #fafafa;
+    display: block;
+    height: 275px;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.lista-disponibilidad ul li{
+	background: none repeat scroll 0 0 #ffffff;
+    cursor: pointer;
+    height: 37px;
+    list-style: none outside none;
+    margin-top: 3px;
+    padding-top: 5px;
+}
+
+.lista-disponibilidad ul li:hover{
+	background: #f1f1f1;
+}
+.disp-icon{
+	float: left;
+	display: block;
+	margin-left: 20px;
+}
+
+.disp-hora{
+	font-size: 20px;
+	color: #777777;
+	margin-left: 30px;
+
+}
+
+.disp-etiqueta{
+	color: #888888;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+
+#pie{
+	color: #777777;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 50px;
+}
+
+/**
+---------------------------------------------------
+                        LOGIN
+___________________________________________________
+
+**/
+
+.cuerpo-sesion{
+     background: none repeat scroll 0 0 #f1f2f7;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 469px;
+    margin: 33px auto 0;
+    width: 30%;
+    
+}
+
+.cuerpo-regitro{
+    background: none repeat scroll 0 0 #f1f2f7;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-bottom: 30px;
+    margin: 33px auto 0;
+    width: 30%;
+}
+ 
+.logo-sesion{
+     margin: 30px;
+    width: 190px;
+}   
+
+#cont-login{
+     margin: 0 auto;
+    width: 74%;
+}
+
+.autocomplete-hora
+{
+     background: none repeat scroll 0 0 #fafafa;
+     display:block;
+    border-bottom: 3px solid #00b4ff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 5px 7px -5px;
+    height: 200px;
+    margin-top: 3px;
+    overflow: auto;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 200px;
+}
+
+.autocomplete-hora li
+{
+    border-bottom: 1px solid #7cd8ff;
+    color: #777777;
+    cursor:pointer;
+    font-size: 20px;
+    list-style: none outside none;
+    padding: 2px;
+}
+
+.autocomplete-hora li:hover
+{
+    background:#ffffff;    
+}
+.autocomplete-hora li a
+{
+    margin-left:20px;
+}
+
+.item-mes-mirerva{
+    float: left;
+    margin-left: 20px;
+    margin-top: 37px;
+    width: 200px;
+}
+.head-mireserva{
+      background: none repeat scroll 0 0 #00b4ff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 22px;
+    text-align: center;
+}
+.head-mireserva h1{
+   color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.body-mireserva{
+     background: none repeat scroll 0 0 #fafafa;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.body-mireserva ul li{
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    list-style: none outside none;
+    padding: 11px 0;
+}
+
+.icon-mireserva{
+     float: left;
+    margin-left: 20px;
+}
+
+.text-dia-mireserva{
+    color: #777777;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.hora-mireserva{
+    color: #777777;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+
+.body-mireserva ul li:hover{
+    background: #f1f2f7;
+    border-bottom: 1px solid #f1f1f1;
+    cursor: pointer;
+
+}
+
+#calendar{
+    background: #ffffff;
+
+}
+
+.Controles-calendar{
+    float: left !important;
+    margin-bottom: -14px !important;
+    margin-left: 40px !important;
+    margin-top: 20px !important;
+}
+
+.Controles-calendar h3{
+     display: block;
+    margin-top: 67px !important;
+}
+
+
+.btnRepetir{
+	background: none repeat scroll 0 0 #00b4ff;
+    border-top-right-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 35px;
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 301px;
+}
+
+
+.btnRepetir:hover{
+	background: #029bdb;
+}
+
+#cont-repetir{
+	display: none;
+}
+
+.titulo-bienvennida{
+	font-weight: lighter;
+font-size: 65px;
+color: #39C4FE;
+text-align: center;
+margin-top: 34px;
+}
+
+.cont-titulo-bienvenida{
+width: 80%;
+margin: 0px auto;
+background: none repeat scroll 0% 0% rgb(255, 253, 253);
+padding: 33px;
+margin-top: 21px;
+border-radius: 29px;
+}
+
+.cont-titulo-bienvenida p{
+	color: rgb(165, 164, 164);
+font-size: 16px;
+text-align: justify;
+}
+
+.box{
+width: 100%;
+display: none;
+position: fixed;
+cursor: pointer;
+top: 0px;
+left: 0px;
+height: 1000px;
+background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.78);
+z-index: 10;
+}
+
+.modal{
+ background: none repeat scroll 0% 0% #FFF;
+width: 28%;
+margin: 33px auto 0px;
+border-radius: 7px;
+padding-bottom: 47px;
+}
+
+.modal-head{
+ background: none repeat scroll 0% 0% #F1F2F7;
+display: block;
+padding: 10px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+}
+
+.modal-head h1{
+    
+   font-weight: lighter;
+font-size: 37px;
+color: #39C4FE;
+text-align: center;
+    
+}
+
+.cont-form-modal{
+   width: 80%;
+margin: 0px auto;
+}
